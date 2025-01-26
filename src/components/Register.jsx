@@ -9,14 +9,11 @@ const Register = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post(
-        "https://user-management-backend-3hpb.onrender.com/api/auth/register",
-        {
-          email,
-          password,
-          role,
-        }
-      );
+      await axios.post("http://localhost:5000/api/auth/register", {
+        email,
+        password,
+        role,
+      });
       alert("Registration successful");
       window.location.href = "/";
     } catch (error) {

@@ -1,8 +1,32 @@
-# React + Vite
+# **Project Documentation**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## **Frontend (Client-Side)**
 
-Currently, two official plugins are available:
+### **Technologies Used:**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**: Frontend framework to build user interfaces.
+- **Axios**: For making HTTP requests to the backend.
+- **Vite**: A modern build tool for React applications.
+
+### **File Structure:**
+
+### **Setup:**
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone <your-repository-url>
+   cd frontend
+   ```
+
+2. **Install dependencies**:
+
+   ```bash
+   npm install
+   ```
+
+3. **Run the frontend**:
+
+   ```bash
+   npm run dev
+   ```

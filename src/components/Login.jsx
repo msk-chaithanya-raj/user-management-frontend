@@ -9,7 +9,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "https://user-management-backend-3hpb.onrender.com/api/auth/login",
+        "http://localhost:5000/api/auth/login",
         { email, password }
       );
       console.log(response);
